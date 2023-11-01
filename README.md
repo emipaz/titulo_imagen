@@ -2,7 +2,7 @@
 
 Este proyecto utiliza un modelo de generación de texto para generar títulos para imágenes. El modelo utilizado se accede a través de una API y requiere una clave de autorización.
 
-Modelo de imagen a texto : Salesforce/blip-image-captioning-base 
+Modelo de imagen a texto : Salesforce/blip-image-captioning-base  
 https://huggingface.co/Salesforce/blip-image-captioning-base
 
 Modelo para traduccion al español  gpt-3.5-turbo de openai
@@ -12,9 +12,9 @@ Modelo para traduccion al español  gpt-3.5-turbo de openai
 1. Clona este repositorio en tu máquina local.
 2. Instala las dependencias necesarias ejecutando el siguiente comando:
 
-´´´bash
+```bash
 pip install -r requirements.txt
-´´´
+```
 
 ## Uso
 
