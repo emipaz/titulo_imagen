@@ -7,9 +7,9 @@ Este proyecto utiliza un modelo de generación de texto para generar títulos pa
 1. Clona este repositorio en tu máquina local.
 2. Instala las dependencias necesarias ejecutando el siguiente comando:
 
-´´´bash
+```bash
 pip install -r requirements.txt
-´´´
+```
 
 ## Uso
 
