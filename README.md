@@ -2,18 +2,23 @@
 
 Este proyecto utiliza un modelo de generación de texto para generar títulos para imágenes. El modelo utilizado se accede a través de una API y requiere una clave de autorización.
 
+Modelo de imagen a texto : Salesforce/blip-image-captioning-base 
+https://huggingface.co/Salesforce/blip-image-captioning-base
+
+Modelo para traduccion al español  gpt-3.5-turbo de openai
+
 ## Instalación
 
 1. Clona este repositorio en tu máquina local.
 2. Instala las dependencias necesarias ejecutando el siguiente comando:
 
-```bash
+´´´bash
 pip install -r requirements.txt
-```
+´´´
 
 ## Uso
 
-1. Ejecuta el archivo `main.py` para lanzar la interfaz gráfica.
+1. Ejecuta el archivo `titulo_foto.py` para lanzar la interfaz gráfica.
 2. Haz clic en "Cargar Imagen" para seleccionar una imagen.
 3. Haz clic en "Generar Título" para generar un título para la imagen cargada.
 4. El título generado se mostrará en el cuadro de texto "Título para la imagen".
